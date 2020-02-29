@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+class Hyperskill {
+    public static void main(String[] args) {
+        Scanner scnr = new Scanner(System.in);
+        int a,b;
+        System.out.print("Enter Characters here"+ ' ');
+        String c = scnr.nextLine();
+        a = scnr.nextInt();
+        b = scnr.nextInt();
+        String substr = c.substring(a,b);
+
+        System.out.println(substr);
+    }
+}
